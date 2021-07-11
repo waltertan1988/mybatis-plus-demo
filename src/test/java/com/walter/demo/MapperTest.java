@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
 
-public class ApplicationTest extends BaseTests{
+public class MapperTest extends BaseTests{
 
     @Autowired
     private UserMapper userMapper;

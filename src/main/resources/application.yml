@@ -8,3 +8,7 @@ spring:
     url: jdbc:mysql://localhost/mybatis_plus?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8
     username: root
     password:
+
+mybatis-plus:
+  mapper-locations:
+    - classpath*:mapper/**/*Mapper.xml
